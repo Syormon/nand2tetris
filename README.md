@@ -41,23 +41,13 @@ The *Nand2tetris Software Suite* features the following software tools:
 | Tool | Description |
 | :--: | ----------- |
 | Hardware Simulator |	Simulates and tests logic gates and chips implemented in the HDL (Hardware Description Language) described in the book. Used in hardware construction projects. 
-
 | CPU Emulator |	Emulates the operation of the Hack computer system. Used to test and run programs written in the Hack machine language, in both its binary and assembly versions.
-
 | VM Emulator |	Emulates the operation of our virtual machine (similar to Java's JVM); used to run and test programs written in the VM language (similar to Java's Bytcode). 
-
 | Assembler	| Translates programs from the Hack assembly language to Hack binary code. The resulting code can be executed directly on the *Computer chip* (in the hardware simulator), or emulated on the supplied *CPU Emulator* (much faster and more convenient).
-
 | Compiler | Translates programs written in Jack (a simple, Java-like object-based language) into VM code. The resulting code can run on the supplied *VM Emulator*. Alternatively, the VM code can be translated further by the supplied *VM translator* into Hack assembly code that can then be executed on the supplied *CPU Emulator*. 
-
 | Operating system | Two OS implementations are supplied: (i) a collection of eight `.vm` class files, written originally in Jack (just like Unix is written in C), and (ii) a faster implementation of all the OS services, embedded in the supplied *VM Emulator*. 
-
 | Text Comparer	| This utility checks if two input text files are identical, up to white space differences. Used in various projects. In Unix use "diff" instead. |
 
 ### Source Code
 
-All the nand2tetris software tools are written in Java. If you wish to inspect, modify, or extend some tool, you can [download the source code](http://nand2tetris.org/software/nand2tetris-open-source-2.5.7.zip). Before compiling the source code on your computer, read [Readme.txt](http://nand2tetris.org/software/Readme.txt).
-
-For details on what's new in the current version of the software (somewhat technical but useful for porting old modifications to the current version), read this [ChangeLog.txt](http://nand2tetris.org/software/ChangeLog.txt) file.
-
-If you wish to share your software extensions with others, please email us at `nand2tetris@gmail.com`.
+All the nand2tetris software tools are written in Java. If you wish to inspect, modify, or extend some tool, you can [download the source code](http://nand2tetris.org/software/nand2tetris-open-source-2.5.7.zip).
